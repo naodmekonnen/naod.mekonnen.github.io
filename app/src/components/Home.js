@@ -19,11 +19,13 @@ const Home = () => {
                 when an unknown printer took a galley of type and scrambled it to make a type 
             </p>
                 <div>
-                    <button>Portfolio</button>
+                    <button className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                      Portfolio
+                      </button>
                 </div>
         </div>
         <div>
-            <img src={profilepic} alt='profileimg' className='rounded-2xl mx-auto w-2/3 md:w-full'></img>
+            <img src={profilepic} alt='profileimg' className='rounded-2xl mx-auto object-contain h-96 w-96 md:w-full'></img>
         </div>
       </div>
     </div>
