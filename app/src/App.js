@@ -6,8 +6,9 @@ import Home from './components/Home'
 const App = () => {
   return (
     <div >
-        <Home />
         <Navbar />
+        <Home />
+
     </div>
   )
 }
