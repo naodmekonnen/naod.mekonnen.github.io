@@ -14,7 +14,7 @@ const Socials = () => {
                 LinkedIn <FaLinkedin size={30} />
                 </>
             ),
-            href: 'https"//linkedin.com',
+            href: 'https://linkedin.com',
             style: 'rounded-tr-md',
         },
 
@@ -25,7 +25,7 @@ const Socials = () => {
                 Github <FaGithub size={30} />
                 </>
             ),
-            href: 'https"//github.com',
+            href: 'https://github.com/',
         },
 
         {
