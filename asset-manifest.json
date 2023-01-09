@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5a7345f7.css",
+    "main.js": "/static/js/main.87c7b7bb.js",
+    "static/media/profilepic.jpg": "/static/media/profilepic.9b293299d099a3239ab2.jpg",
+    "static/media/mindreader.png": "/static/media/mindreader.25674da7af8a256827ee.png",
+    "static/media/TicTacToe.png": "/static/media/TicTacToe.e589a1f107f7081162bb.png",
+    "static/media/weather.png": "/static/media/weather.cb6d62a4f5ad16074b4c.png",
+    "index.html": "/index.html",
+    "main.5a7345f7.css.map": "/static/css/main.5a7345f7.css.map",
+    "main.87c7b7bb.js.map": "/static/js/main.87c7b7bb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a7345f7.css",
+    "static/js/main.87c7b7bb.js"
+  ]
+}
