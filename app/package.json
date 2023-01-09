@@ -1,7 +1,7 @@
 {
   "name": "app",
   "version": "0.1.0",
-  "homepage": "http://naodmekonnen.github.io/",
+  "homepage": "http://naodmekonnen.github.io/react-portfolio/",
   "private": true,
   "dependencies": {
     "gh-pages": "^4.0.0",
