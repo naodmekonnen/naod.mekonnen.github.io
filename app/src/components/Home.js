@@ -15,12 +15,12 @@ const Home = () => {
                 I am a Full Stack Developer
             </h2>
             <p className='text-gray-500 py-4 max-w-md'>
-                Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type 
+            A junior full-stack developer experienced in agile methodologies with the ability to design, 
+            develop and implement web-based applications. 
+            Excellent communicator and able to learn and integrate new languages and technologies quickly.
             </p>
                 <div>
-                    <Link to='Portfolio'
+                    <Link to='portfolio'
                     smooth
                     duration={500}
                     className='text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>

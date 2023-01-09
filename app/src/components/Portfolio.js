@@ -1,5 +1,10 @@
 import React from "react";
-import reacticon from '../assets/reacticon.png'
+// import reacticon from '../assets/reacticon.png'
+import mindreader from '../assets/mindreader.png'
+import weather from '../assets/weather.png'
+import TicTacToe from '../assets/TicTacToe.png'
+import { Link } from 'react-router-dom';
+
 
 
 
@@ -7,27 +12,21 @@ const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: reacticon,
+      src: mindreader,
+      Demo:'https://naodmekonnen.github.io/mind-reader/',
+      Code:'https://github.com/naodmekonnen/mind-reader',
     },
     {
       id: 2,
-      src: reacticon,
+      src: weather,
+      Demo:'https://naodmekonnen.github.io/Weather-App/',
+      Code:'https://github.com/naodmekonnen/Weather-App',
     },
     {
       id: 3,
-      src: reacticon,
-    },
-    {
-      id: 4,
-      src: reacticon,
-    },
-    {
-      id: 5,
-      src: reacticon,
-    },
-    {
-      id: 6,
-      src: reacticon,
+      src: TicTacToe,
+      Demo:'https://naodmekonnen.github.io/tic-tac-toe/',
+      Code:'https://github.com/naodmekonnen/tic-tac-toe',
     },
   ];
 
@@ -45,7 +44,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, Demo, Code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -53,12 +52,20 @@ const Portfolio = () => {
                 className="rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+              <a target="_blank" href={Demo}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                        type='button'>
                   Demo
                 </button>
-                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">
+                </a>
+
+                <a a target="_blank" href={Code}>
+                <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"
+                        type='button'
+                >
                   Code
                 </button>
+                </a>
               </div>
             </div>
           ))}
@@ -69,3 +76,6 @@ const Portfolio = () => {
 };
 
 export default Portfolio;
+
+
+
